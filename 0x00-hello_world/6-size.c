@@ -3,7 +3,6 @@
 
 
 /**
-
 * main - Prints sized of characters
 
 *
