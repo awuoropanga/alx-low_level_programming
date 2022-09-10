@@ -4,11 +4,8 @@
 
 /**
 * main - Print a string
-
 * Description: use printf
-
 * Return:always 0 (success)
-
 */
 
 
