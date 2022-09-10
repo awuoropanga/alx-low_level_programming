@@ -4,15 +4,10 @@
 
 /**
 * main - Prints sized of characters
-
 *
-
 *
-
 *
-
 * Return: Always 0 (success)
-
 */
 
 
