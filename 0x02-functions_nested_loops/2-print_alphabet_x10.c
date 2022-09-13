@@ -5,18 +5,24 @@
  *
  */
 
+
+
 void print_alphabet(void)
 
 {
-	char alphabet = 'a';
 
-	while (alphabet <= 'z')
+char alphabet = 'a';
 
-	{
-		_putchar(alphabet);
-		alphabet++;
-	}
+while (alphabet <= 'z')
 
-	_putchar('\n');
+{
+
+_putchar(alphabet);
+
+alphabet++;
+
 }
 
+_putchar('\n');
+
+}
