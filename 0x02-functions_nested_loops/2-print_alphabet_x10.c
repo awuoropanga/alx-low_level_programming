@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - funtion
+ * print_alphabet_x10 - funtion
  *
  */
 
@@ -9,22 +9,24 @@
 
 void print_alphabet(void)
 
-char alphabet = 'a';
-
-
-for (int j=0; j<=10; j++)
-
-{
-while (alphabet <= 'z')
-
 {
 
-_putchar(alphabet);
+char a,b;
 
-alphabet++;
+
+for (b = 0; b <=9; b++)
+
+{
+
+       for (a = 'a'; a <= 'z'; a++)
+
+       {
+	      _putchar(a);
+
+       }
+
+       _putchar('\n')
 
 }
-
-_putchar('\n');
 
 }
