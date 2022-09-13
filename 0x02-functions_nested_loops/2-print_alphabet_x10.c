@@ -9,10 +9,12 @@
 
 void print_alphabet(void)
 
-{
-
 char alphabet = 'a';
 
+
+for (int j=0; j<=10; j++)
+
+{
 while (alphabet <= 'z')
 
 {
