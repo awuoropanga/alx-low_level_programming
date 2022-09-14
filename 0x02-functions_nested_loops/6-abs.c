@@ -3,14 +3,10 @@
 
 
 /**
- *
- *  *_abs - prints absolute value
- *
- *   *@n: var
- *
- *    *Return: 0
- *
- *     */
+ *_abs - prints absolute value
+ *@n: var
+ *Return: 0
+ */
 
 
 
