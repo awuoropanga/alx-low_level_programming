@@ -1,15 +1,9 @@
 #include "main.h"
 
-
-
 /**
-
  * _isupper - func name
-
  *@c: var name
-
  * Return: 0
-
  */
 
 
