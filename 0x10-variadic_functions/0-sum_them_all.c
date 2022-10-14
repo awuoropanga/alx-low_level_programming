@@ -1,5 +1,6 @@
 #include <stdarg.h>
 
+
 /**
  * sum_them_all - adds all the parameters
  *
@@ -23,6 +24,7 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(ap, n);
 
 
+
 	/* iterate through all parameter values*/
 
 	for (p = 0; p < n; p++)
@@ -34,7 +36,6 @@ int sum_them_all(const unsigned int n, ...)
 	/*Clean up*/
 
 	va_end(ap);
-
 
 	return (sum);
 
