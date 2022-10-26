@@ -23,12 +23,11 @@ size_t print_list(const list_t *h)
 
 	{
 		/*if str is NULL return len as 0 and str as (nil)*/
-		if (h->str == NULL)
 
+		if (h->str == NULL)
 			printf("[%d] %s\n", 0, "(nil)");
 
 		else
-
 			printf("[%d] %s\n", h->len, h->str);
 
 		/*go to the next node*/
@@ -38,7 +37,6 @@ size_t print_list(const list_t *h)
 		/*count number of nodes*/
 
 		node_count += 1;
-
 	}
 
 	/*print for the last node*/

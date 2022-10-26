@@ -1,2 +1,2 @@
-creating and navigating linked lists
-printing linked lists
+Creating and navigating linked lists
+Printing linked lists
