@@ -1,10 +1,25 @@
-void *malloc_checked(unsigned int b);
+#ifndef __MAIN_H__
+
+#define __MAIN_H__
+
+
+
+unsigned int binary_to_uint(const char *b);
+
+void print_binary(unsigned long int n);
 
 int _putchar(char c);
 
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+int get_bit(unsigned long int n, unsigned int index);
 
-void *_calloc(unsigned int nmemb, unsigned int size);
+int set_bit(unsigned long int *n, unsigned int index);
 
-int *array_range(int min, int max);
+int clear_bit(unsigned long int *n, unsigned int index);
 
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
+
+int get_endianness(void);
+
+
+
+#endif

@@ -1,1 +1,1 @@
-More malloc
+Binary operations and bit manipulations
